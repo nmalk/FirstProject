@@ -22,7 +22,6 @@ ul.name {
     z-index: 2;
     width: 500px;
     height: 250px;
-    border: 2px solid red;
 }
 
 ul.name li {
@@ -41,4 +40,71 @@ ul.name li {
 ul.name:hover span {
     text-shadow: -1px -1px 25px var(--yellow), -1px -1px 2px var(--invert);
     transition: 2000ms ease-out;
+}
+
+.overlay {
+    top: 300px;
+    left: 50px;
+    position: relative;
+    width: 960px;
+    height: 165px;
+}
+
+.btn {
+    width: 180px;
+    opacity: 0.6;
+}
+
+.dropdown {
+    top: 20px;
+}
+.menu {
+    width: 180px;
+}
+
+.menu li {
+    margin-left: 5px;
+}
+
+form {
+    background-color: transparent !important;
+    width: 500px;
+    height: 75px;
+    padding: 0;
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px black;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px black;
+}
+
+.navbar {
+    background: rgba(243, 220, 224, 0.3);
+    height: 75px;
+}
+
+#mainNavbar i {
+    padding: 15px;
+}
+
+
+#results-here {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(180, 195, 216, 0.2);
+    max-width: 700px;
+    /* border: 5px solid red;
+    position: relative; */
 }
