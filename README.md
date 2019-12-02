@@ -4,15 +4,15 @@
 
 ## About
 
-KRAVE is an app that searches for restaurants, cooking classes, recipes, and books tables within Washington D.C. area.
+KRAVE is a web application that makes use of pre-existing APIs to pull up to date restaurants, recipes and cooking classes in VA. 
 
 ## How it works
 
-Select an option from dropdown menu and search prefered food.
+The App will require the user to choose Recipes, Cooking Classes or Restaurants Near You once they click on 'Pick your Eat!'. User will then enter what food they are craving for recipes and the location they're looking for restaurants or cooking classes. 
 
 ## Technologies used
 
-Javascript, Bootstrap, AJAX 
+HTML5, CSS3, Javascript, JQuery, Bootstrap, AJAX calls
 
 
 

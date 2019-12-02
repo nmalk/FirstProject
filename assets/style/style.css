@@ -44,19 +44,21 @@ ul.name:hover span {
 
 .overlay {
     top: 300px;
-    left: 50px;
+    left: 30px;
     position: relative;
     width: 960px;
     height: 165px;
 }
 
 .btn {
+    margin-left: 40px;
     width: 180px;
     opacity: 0.7;
 }
 
 .dropdown {
     top: 20px;
+    padding: 0;
 }
 
 .menu {
@@ -69,10 +71,12 @@ ul.name:hover span {
 
 form {
     background-color: transparent !important;
-    width: 500px;
-    height: 75px;
-    padding: 0;
+    width: 675px;
+    height: 175px;
+    left: 10px;
 }
+
+
 
 #mainNavbar .navbar-brand {
     color: white;
