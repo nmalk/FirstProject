@@ -1,9 +1,12 @@
+@import url(root/variables.css);
+
 video {
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 100%; 
-    height: auto;
     z-index: -1;
 }
 
@@ -14,10 +17,45 @@ video {
     padding: 0;
     margin: 0;
 }
+/*
+    optional title
+------------------------*/
+ul.name {
+    position: var(--absl);
+    top: 100px;
+    left: 36%;
+    margin-top: 80px;
+    z-index: 10;
+}
 
+ul.name li {
+    display: inline;
+}
+
+.name span {
+    color: white;
+    cursor: default;
+    font-size: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    letter-spacing: 30px;
+    text-shadow: 3px 8px 20px var(--invert), 2px 2px 3px var(--green);
+    transition: 700ms ease-in;
+}
+ul.name:hover span {
+    text-shadow: -1px -1px 25px var(--yellow), -1px -1px 2px var(--invert);
+    transition: 2000ms ease-out;
+}
+span.italic {
+    font-style: italic;
+}
+/*
+    end of optional title
+------------------------*/
+/*
 ul.name {
     position: absolute;
-    left: 450px; 
+    left: 37%;
     margin-top: 20px;
     z-index: 2;
     width: 500px;
@@ -41,15 +79,19 @@ ul.name:hover span {
     text-shadow: -1px -1px 25px var(--yellow), -1px -1px 2px var(--invert);
     transition: 2000ms ease-out;
 }
+*/
 
 .overlay {
-    top: 300px;
-    left: 30px;
     position: relative;
+    top: 300px;
+    left: -10px;
     width: 960px;
     height: 165px;
 }
-
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
 .btn {
     margin-left: 40px;
     width: 180px;
@@ -67,6 +109,12 @@ ul.name:hover span {
 
 .menu li {
     margin-left: 5px;
+    cursor: pointer;
+}
+
+.menu li:hover a {
+    background-color: #dddd;
+    display: block;
 }
 
 form {
@@ -75,8 +123,6 @@ form {
     height: 175px;
     left: 10px;
 }
-
-
 
 #mainNavbar .navbar-brand {
     color: white;
@@ -113,17 +159,17 @@ form {
     margin-top: 300px;
 }
 
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {} 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
 
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {} 
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {} 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {} 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
