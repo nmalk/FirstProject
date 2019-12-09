@@ -17,6 +17,7 @@ video {
     padding: 0;
     margin: 0;
 }
+
 /*
     optional title
 ------------------------*/
@@ -42,13 +43,16 @@ ul.name li {
     text-shadow: 3px 8px 20px var(--invert), 2px 2px 3px var(--green);
     transition: 700ms ease-in;
 }
+
 ul.name:hover span {
     text-shadow: -1px -1px 25px var(--yellow), -1px -1px 2px var(--invert);
     transition: 2000ms ease-out;
 }
-span.italic {
+
+.italic span {
     font-style: italic;
 }
+
 /*
     end of optional title
 ------------------------*/
@@ -88,10 +92,13 @@ ul.name:hover span {
     width: 960px;
     height: 165px;
 }
+
 .no-wrap {
-    display: flex;
+    --val: flex;
+    display: var(--val);
     flex-wrap: nowrap;
 }
+
 .btn {
     margin-left: 40px;
     width: 180px;
@@ -108,13 +115,18 @@ ul.name:hover span {
 }
 
 .menu li {
-    margin-left: 5px;
     cursor: pointer;
+}
+
+.menu a {
+    display: block;
+    padding-left: 10px !important;
+
 }
 
 .menu li:hover a {
     background-color: #dddd;
-    display: block;
+    margin-left: 0px !important;
 }
 
 form {
