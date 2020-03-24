@@ -1,4 +1,4 @@
-# FirstProject
+# KRAVE
 
 ![homepage](/assets/images/homepage.png)
 
