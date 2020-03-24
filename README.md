@@ -1,5 +1,7 @@
 # FirstProject
 
+![homepage](/assets/images/homepage.png)
+
 * [Try it out]()
 
 ## About
