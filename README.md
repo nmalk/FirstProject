@@ -2,6 +2,8 @@
 
 ![homepage](/assets/images/homepage.png)
 
+![homepage](/assets/images/resultspage.png)
+
 * [Try it out]()
 
 ## About
